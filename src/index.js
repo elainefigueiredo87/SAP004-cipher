@@ -14,4 +14,4 @@ function pegar () {
 
 }
 
-//console.log(cipher);
+console.log(cipher);
