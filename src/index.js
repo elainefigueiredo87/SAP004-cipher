@@ -1,5 +1,6 @@
 import cipher from './cipher.js';
 var botaoCifrar = document.getElementById("cifrar");
+var botaoDecifrar = document.getElementById("decifrar");
 
 botaoCifrar.addEventListener("click", function(event) {
     event.preventDefault();
@@ -7,11 +8,12 @@ botaoCifrar.addEventListener("click", function(event) {
     document.getElementById("valorDigitado").innerHTML = cifrar;
 })
 
+botaoDecifrar.addEventListener("click", function(event){
+    event.preventDefault();
+    let decifrar = document.getElementById("valor2").value;
+    document.getElementById(valorDigitado2).innerHTML = decifrar;
+})
 
-function pegar () {
-    pegando = document.getElementById('valor2').value;
-    document.getElementById('valorDigitado2').innerHTML = pegando;
 
-}
 
 console.log(cipher);
