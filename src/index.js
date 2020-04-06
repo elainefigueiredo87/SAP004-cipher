@@ -11,7 +11,7 @@ botaoCifrar.addEventListener("click", function(event) {
 botaoDecifrar.addEventListener("click", function(event){
     event.preventDefault();
     let decifrar = document.getElementById("valor2").value;
-    document.getElementById(valorDigitado2).innerHTML = decifrar;
+    document.getElementById("valorDigitado2").innerHTML = decifrar;
 })
 
 
