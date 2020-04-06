@@ -1,0 +1,22 @@
+body {
+    height: 700px;
+    background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%)
+    
+}
+
+textarea {
+    vertical-align: top;
+    height: 20em;
+    width: 45em;
+    resize: none;
+}
+.button {
+    padding-left: 25px;
+    margin-top: 1em;
+    background-color: rgb(131, 93, 129);
+    border-color: purple;
+    font-size: medium;
+}
+.number {
+    border-color: purple
+}

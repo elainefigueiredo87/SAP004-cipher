@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Cifra de César</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="root">
+    <header>
+      <h1>Bem vinda a nossa página!</h1>
+      <p>Esse espacinho é reservado pra você escrever todos os babados que estão rolando no seu Clã</p>
+      <p2>E sabe o que é melhor? Você escreve sua mensagem e cifra antes de mandar, assim não vaza nenhuma info :)</p2>
+    </header>
+  </div>
+  <input type="number" id="offset" name="deslocamento" value="1" min="1" max="20">
+
+  <textarea type="text" id="valor" cols="30" rows="10" required></textarea>
+  <input type="submit" onclick="capturar()" checked="true" value="cifrar">
+  <p id="valorDigitado"></p>
+
+
+  <textarea type="text" id="valor2" cols="30" rows="10" disabled></textarea>
+  <input type="submit" onclick="pegar()" value="decifrar">
+  <p id="valorDigitado2"></p>
+
+
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
