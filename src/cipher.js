@@ -1,28 +1,27 @@
   const cipher = {
-    encode(deslocamento, texto){
-      Number(deslocamento)
-      texto = texto.toUpperCase()
-      let messageArray = []
-      let textRetorno = ""
+    encode: function (string){
+      
+      let texto = string.toUpperCase()
+      let results = "";
+      
+
+
       for (let i=0; i<texto.length; i++)
-      {
-       messageArray [i] = (texto.charAt(i))
-        messageArray[i] = (((messageArray[i].charCodeAt(0) - 65) + deslocamento) % 26 + 65)
-        texotRetorno += String.fromCharCode(messageArray[i])
-        alert (textoRetorno)
+      { let alfabeto = texto[i];
+       
 
       }
-      return textoRetorno
+      return results
 
     }
   }
 
-    //decode(){
+    decode(){
 
   
 
   
    
-  // ...
+ ...
 
 export default cipher;
