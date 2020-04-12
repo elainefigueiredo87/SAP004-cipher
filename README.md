@@ -11,12 +11,12 @@
 
 ## 1. Introdução - Teen Page Mensagens Secretas
 
-O universo Teen conta com muitas descobertas e novidades, portanto muitos "babados" não podem "vazar" e vir a público. Já pensou que mico aquele gatinho descobrir que você se derrete por ele? Melhor deixar esse assunto entre amigas e em segredo. 
+O universo Teen conta com muitas descobertas e novidades, portanto muitos "babados" não podem "vazar" e vir a público. Já pensou que mico aquele gatinho ou gatinha descobrir que você se derrete por ele(ela)? Melhor deixar esse assunto entre amigos e em segredo. 
 Pensando em toda essa necessidade de sigilo, foi desenvolvida uma ferramenta que possibilitará a comunicação de forma secreta entre os adolescentes.
 Os jovens poderão se comunicar e enviar mensagens criptografadas usando a Cifra de César.
 Através desse método é possível digitar um texto e converter em uma mensagem criptografada, cada letra do alfabeto será substituída por outra, isso irá depender do número de posições que o usuário que escreve irá escolher deslocar o alfabeto dentro das opções disponíveis.
-A tela tem um campo para digitar a mensagem, um campo para escolher um número (que será responsável pelo número de deslocamento do alfabeto e um botao para criptografar. A mensagem aparecerá ao lado já codificada.
-a mensagem codificada poderá ser descodificada na mesma tela, no campo de baixo. basta copiar a mensagem criptografada e colar no campo abaixo para descriptografar, o importante será saber o offset que foi escolhido para criptografar.
+A tela tem um campo para digitar a mensagem, um campo para escolher um número (que será responsável pelo número de deslocamento do alfabeto) e um botão para criptografar. A mensagem aparecerá ao lado já codificada.
+A mensagem codificada poderá ser descodificada na mesma tela, no campo de baixo. Basta copiar a mensagem criptografada e colar no campo abaixo para descriptografar, o importante será saber o offset que foi escolhido para criptografar.
 Se a pessoa enviar a mensagem criptografada para um amigo por e-mail, ela deverá informar o número junto à mensagem enviada, dessa forma, quem receber a mensagem poderá convertê-la e ler o que foi enviado secretamente.
 Essa página é inteiramente destinada aos adolescentes, pois é uma forma divertida de se comunicar com os amigos.
 Usando nossa página você estará seguro para enviar as mensagens para os amigos. Caso seus pais peçam para ver seu e-mail ou whatsApp, verão apenas letras sem sentido, e nunca mais irão dizer aos seus tios quando vierem te visitar, que você está de namoradinho e namoradinha, ou que tem paquerinha, pois é vergonhoso passar por isso, a gente entende!
@@ -31,7 +31,7 @@ A página destina-se ao público jovem (adolescente) que gosta de interagir com 
 
 ## 4. Objetivo
 
-**Cifrar** e **Decifrar** mensagens para enviar aos amigos.
+**Cifrar** e **Decifrar** mensagens para enviar aos amigos e amigas.
 
 ## 5. Solução
 
@@ -46,4 +46,4 @@ Há mais uma caixa de texto que servirá para colar a mensagem que deverá ser c
 
 ## 7. Ferramentas
 
-As ferramentas utilizadas foram o programa Visual Studio Code para desenvolver o HTML (estrutura da página), JavaScript ( interação com o usuário), Css (estilo da página) e CipherJs (parte lógica da cifragem e decifragem).
+As ferramentas utilizadas foram o programa Visual Studio Code para desenvolver o HTML (estrutura da página), JavaScript ( interação com o usuário), Css (estilo da página) e CipherJs (parte lógica da cifragem e deciframento).
