@@ -42,7 +42,7 @@ Oferecer aos jovens a privacidade necessária para conversarem sobre o que quise
 A página possui um texto no cabeçalho de boas vindas e uma breve explicação sobre para que serve.
 Há um campo para escolher o offset.
 Uma caixa de texto para inserir a mensagem, um botão para cifrar e ao lado um campo onde aparecerá a mensagem cifrada.
-Há mais uma caixa de texto que servirá para colar a mensagem que deverá ser copiada do campo acima (utilizando Ctrl C, para copiar e Ctrl V para colar.) Um botão decifrar para descodificar a mensagem que aparecerá ao lado.
+Há mais uma caixa de texto que servirá para colar a mensagem que deverá ser copiada do campo acima (utilizando Ctrl + C, para copiar e Ctrl + V para colar.) Um botão decifrar para descodificar a mensagem que aparecerá ao lado.
 
 ## 7. Ferramentas
 
