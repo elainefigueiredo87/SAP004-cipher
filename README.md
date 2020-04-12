@@ -1,8 +1,21 @@
 # Cifra de César
-# Índice
+## Índice
 
+* [1. Introdução](#1-Introdução)
+* [2. Produto](#2-Produto)
+* [3. Usuário final](#3-Usuário-final)
+* [4. Considerações gerais](#4-considerações-gerais)
+* [5. Critérios de aceitação mínimos do
+  projeto](#5-criterios-de-aceitação-mínimos-do-projeto)
+* [6. Hacker edition](#6-hacker-edition)
+* [7. Considerações técnicas](#7-considerações-técnicas)
+* [8. Guias, dicas e leituras
+  complementares](#8-guias-dicas-e-leituras-complementares)
+* [9. Checklist](#9-checklist)
 
-## Teen Page Mensagens Secretas
+***
+
+## 1. Introdução - Teen Page Mensagens Secretas
 
 ***
 
@@ -16,36 +29,13 @@ Se a pessoa enviar a mensagem criptografada para um amigo por e-mail, ela dever�
 Essa página é inteiramente destinada aos adolescentes, pois é uma forma divertida de se comunicar com os amigos.
 Usando nossa página você estará seguro para enviar as mensagens para os amigos. Caso seus pais peçam para ver seu e-mail ou whatsApp, verão apenas letras sem sentido, e nunca mais irão dizer aos seus tios quando vierem te visitar, que você está de namoradinho e namoradinha, ou que tem paquerinha, pois é vergonhoso passar por isso, a gente entende!
 
-### Interface do usuário (UI)
+## 2. Produto
 
-A interface deve permitir ao usuário:
+O produto é uma página que oferece ao usuário o poder de criptografar uma mensagem para enviar, e quem recebe pode descriptografar a mensagem usando o mesmo offset escolhido no ato da criptografia para tornar a mensagem legível.
 
-* Eleger um _offset_ indicando quantas posições de deslocamento de caracteres
-  quer que a cifra utilize.
-* Inserir uma mensagem (texto) para ser cifrada.
-* Ver o resultado da mensagem cifrada.
-* Inserir uma mensagem (texto) para ser decifrada.
-* Ver o resultado da mensagem decifrada.
+## 3. Usuário final
 
-### Scripts / Arquivos
-
-* `REAME.md`: deve explicar como fazer deploy, instalar e executar a aplicação,
-  assim como uma introdução a aplicação, suas funcionalidades e as decisões que
-  foram tomadas.
-* `src/index.html`: aqui será o ponto de entrada da sua aplicação. Este arquivo
-  deve conter a marcação HTML e chamar o CSS e JavaScript necessários.
-* `src/cipher.js`: aqui você deve implementar o objeto `cipher`, o qual já está
-  _exportado_ no _boilerplate_. Este objeto (`cipher`) deve conter dois métodos:
-  - `cipher.encode(offset, string)`: `offset` é o número de posições que
-      queremos mover para a direita no alfabeto e `string` é a mensagem (texto)
-      que queremos cifrar.
-  - `cipher.decode(offset, string)`: `offset` é o número de posições que
-      queremos mover para a esquerda no alfabeto e `string` é a mensagem (texto)
-      que queremos decifrar.
-* `src/index.js`: aqui você deve escutar os eventos de DOM, chamar
-  `cipher.encode()` e `cipher.decode()`.
-* `test/cipher.spec.js`: este arquivo contem alguns testes de exemplo e aqui
-  você deve implementar os testes para `cipher.encode()` e `cipher.decode()`.
+A página destina-se ao público jovem (adolescente) que gosta de interagir com os amigos sem revelar o que estão conversando entre si. Uma forma divertida e criativa de conversar.
 
 ## 6. Hacker Edition
 
