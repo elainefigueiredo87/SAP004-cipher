@@ -1,118 +1,20 @@
 # Cifra de César
+# Índice
 
-## Índice
 
-* [1. Prefácio](#1-prefácio)
-* [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
-* [4. Considerações gerais](#4-considerações-gerais)
-* [5. Critérios de aceitação mínimos do
-  projeto](#5-criterios-de-aceitação-mínimos-do-projeto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Considerações técnicas](#7-considerações-técnicas)
-* [8. Guias, dicas e leituras
-  complementares](#8-guias-dicas-e-leituras-complementares)
-* [9. Checklist](#9-checklist)
+## Teen Page Mensagens Secretas
 
 ***
 
-## 1. Prefácio
-
-Cifrar significa codificar. A [cifra de
-César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) é um dos primeiros
-tipos de criptografias conhecidas na história. O imperador romano Júlio César
-utilizava essa cifra para enviar ordens secretas aos seus generais no campo de
-batalha.
-
-![caeser-cipher](https://user-images.githubusercontent.com/11894994/60990999-07ffdb00-a320-11e9-87d0-b7c291bc4cd1.png)
-
-A cifra de César é uma das técnicas mais simples de cifrar uma mensagem. É um
-tipo de cifra por substituição, em que cada letra do texto original é
-substituida por outra que se encontra há um número fixo de posições
-(deslocamento) mais a frente do mesmo alfabeto.
-
-Por exemplo se usarmos o deslocamento (_offset_) de 3 posições:
-
-* Alfabeto sem cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-* Alfabeto com cifra:  D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
-* A letra A será D
-* A palavra CASA será FDVD
-
-Atualmente todas as cifras de substituição alfabética simples, são decifradas
-com facilidade e não oferecem muita segurança na comunição, mas a cifra de César
-muitas vezes pode fazer parte de um sistema mais complexo de criptografia, como
-a cifra de Vigenère, e tem aplicação no sistema ROT13.
-
-## 2. Resumo do projeto
-
-O que eu tenho que fazer exatamente? Neste projeto você criará a primeira
-aplicação web do _bootcamp_. Nela o usuário poderá cifrar e decrifrar um texto
-indicando a chave de deslocamento (_offset_).
-
-O tema é livre. Você deve pensar em alguma situação de vida real em que seja
-necessário cifrar uma mensagem e pensar em como deve ser a experiência do
-usuário (tela, explicações, mensagens, cores, marca?, etc.). Algumas ideias de
-exemplo:
-
-* Mensagens secretas para alguma pessoa.
-* Ferramenta de mensagens internas de uma organização em uma zona de conflito.
-* Cifrar cartões de crédito.
-* Criar senhas seguras para email.
-
-## 3. Objetivos de aprendizagem
-
-Neste projeto você aprenderá a construir uma aplicação web (_WebApp_) que irá
-interagir com o usuário final através do navegador utilizando HTML, CSS e
-JavaScript como ferramentas.
-
-Em outras palavras, você aprenderá:
-
-* Organizar o seu tempo e priorizar as tarefas em um ambiente com **alta
-  incerteza**.
-* Entender as **necessidade do usuário** e propor uma solução.
-* Entender a importância do processo de prototipação durante a criação de um
-  produto digital.
-* Conhecer os princípios básicos de desenho visual.
-* Utilizar _tags_ semânticas de HTML e elementos de formulário.
-* Mostrar elementos de formulário na tela usando **HTML** e **CSS**.
-* Utilizar diversos tipos de seletores no CSS: elementos, classe e id.
-* Utilizar o modelo de caixas do CSS (border, margin, padding).
-* Definir regras de estilo do CSS.
-* Permitir ao usuário interagir com elementos do DOM e fazer que a aplicação
-  responda (cifrar/decifrar) quando os **evento de DOM** ocorrerem.
-* Manipular _**strings**_ (cadeias de texto).
-* Usar **controle de fluxo** (loops, condicionais, ...).
-* Atualizar a tela com os resultados (**manipular o DOM**) através de
-  **innerHTML** ou **textContent**.
-* **Implementar uma função** dada a descrição do seu comportamento.
-* Verificar que as suas funções façam o esperado (**usando provas unitárias
-  (_unit test_) com Jest**).
-* Configurar a sua conta de git.
-* Fazer o _fork_ e _clone_ do repositório do projeto.
-* Manter o seu repositório remoto sempre atualizado (commit, pull, push).
-* Subir o seu projeto para o Github Pages.
-
-## 4. Considerações gerais
-
-* Este projeto deve ser resolvido individualmente.
-* O projeto será entregue subindo o seu código no GitHub (commit/push) e o
-  deploy será feito no GitHub Pages. Se não sabe o que é o GitHub, não se
-  preocupe, você aprendera durante o projeto.
-
-## 5. Critérios de aceitação mínimos do projeto
-
-Use o alfabeto simples (somente maiúsculas e sem ç):
-
-* A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-
-### Definição do produto
-
-No README.md, escreva como você definiu seu usuário e qual foi o processo para
-definir o produto final a nível de expriência e interface.
-
-* Quem são os principais usuário do produto?
-* Quais são os objetivos do usuário em relação com o produto?
-* Como você acredita que o produto está resolvendo os problemas do usuário?
+O universo Teen conta com muitas descobertas e novidades, portanto muitos "babados" não podem "vazar" e vir a público. Já pensou que mico aquele gatinho descobrir que você se derrete por ele? Melhor deixar esse assunto entre amigas e em segredo. 
+Pensando em toda essa necessidade de sigilo, foi desenvolvida uma ferramenta que possibilitará a comunicação de forma secreta entre os adolescentes.
+Os jovens poderão se comunicar e enviar mensagens criptografadas usando a Cifra de César.
+Através desse método é possível digitar um texto e converter em uma mensagem criptografada, cada letra do alfabeto será substituída por outra, isso irá depender do número de posições que o usuário que escreve irá escolher deslocar o alfabeto dentro das opções disponíveis.
+A tela tem um campo para digitar a mensagem, um campo para escolher um número (que será responsável pelo número de deslocamento do alfabeto e um botao para criptografar. A mensagem aparecerá ao lado já codificada.
+a mensagem codificada poderá ser descodificada na mesma tela, no campo de baixo. basta copiar a mensagem criptografada e colar no campo abaixo para descriptografar, o importante será saber o offset que foi escolhido para criptografar.
+Se a pessoa enviar a mensagem criptografada para um amigo por e-mail, ela deverá informar o número junto à mensagem enviada, dessa forma, quem receber a mensagem poderá convertê-la e ler o que foi enviado secretamente.
+Essa página é inteiramente destinada aos adolescentes, pois é uma forma divertida de se comunicar com os amigos.
+Usando nossa página você estará seguro para enviar as mensagens para os amigos. Caso seus pais peçam para ver seu e-mail ou whatsApp, verão apenas letras sem sentido, e nunca mais irão dizer aos seus tios quando vierem te visitar, que você está de namoradinho e namoradinha, ou que tem paquerinha, pois é vergonhoso passar por isso, a gente entende!
 
 ### Interface do usuário (UI)
 
