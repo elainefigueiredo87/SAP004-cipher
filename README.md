@@ -46,4 +46,4 @@ Há mais uma caixa de texto que servirá para colar a mensagem que deverá ser c
 
 ## 7. Ferramentas
 
-As ferramentas utilizadas foram o programa Visual Studio Code para desenvolver o HTML (estrutura da página), JavaScript ( interação com o usuário), Css (estilo da página) e CipherJs (parte lógica da cifragem e deciframento).
+As ferramentas utilizadas foram o programa Visual Studio Code para desenvolver o HTML (estrutura da página), JavaScript ( interação com o usuário), Css (estilo da página) e Cipher.Js (parte lógica da cifragem e deciframento).
