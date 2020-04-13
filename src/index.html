@@ -10,17 +10,19 @@
 <body>
   <div id="root">
     <header>
-      <h1>Bem vinda a nossa página!</h1>
+      <h1>Bem vindos a nossa página!</h1>
       <h2>Esse espacinho é reservado pra você escrever todos os babados que estão rolando no seu Clã.</h2>
       <h3>E sabe o que é melhor? Você escreve sua mensagem e cifra antes de mandar, assim não vaza nenhuma info :)</h3>
     </header>
   </div>
-  <input type="number" id="offset" name="deslocamento" value="1" min="1" max="33"><br>
+  <label>Escolha o offset: </label><input type="number" id="offset" name="deslocamento" value="1" min="1" max="33">
   <form class=principal>
-    <textarea type="text" id="valor" cols="20" rows="5" required></textarea>
+    <textarea type="text" id="valor" placeholder="Escreva sua mensagem aqui e clique em cifrar" cols="20" rows="5"
+      required></textarea>
     <p id="valorDigitado"></p>
 
-    <textarea type="text" id="valor2" cols="20" rows="5" required></textarea>
+    <textarea type="text" id="valor2" placeholder="cole a mensagem cifrada aqui e decifre" cols="20" rows="5"
+      required></textarea>
     <p id="valorDigitado2"></p>
   </form>
   <footer class="rodape">
