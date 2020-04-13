@@ -11,23 +11,22 @@
   <div id="root">
     <header>
       <h1>Bem vinda a nossa página!</h1>
-      <p>Esse espacinho é reservado pra você escrever todos os babados que estão rolando no seu Clã.</p>
-      <p2>E sabe o que é melhor? Você escreve sua mensagem e cifra antes de mandar, assim não vaza nenhuma info :)</p2>
+      <h2>Esse espacinho é reservado pra você escrever todos os babados que estão rolando no seu Clã.</h2>
+      <h3>E sabe o que é melhor? Você escreve sua mensagem e cifra antes de mandar, assim não vaza nenhuma info :)</h3>
     </header>
   </div>
   <input type="number" id="offset" name="deslocamento" value="1" min="1" max="33"><br>
+  <form class=principal>
+    <textarea type="text" id="valor" cols="20" rows="5" required></textarea>
+    <p id="valorDigitado"></p>
 
-  <textarea type="text" id="valor" cols="20" rows="5" required></textarea>
-  <button class="button" type="submit" id="cifrar">Cifrar</button>
-  <p id="valorDigitado"></p>
-  
-
-
- <textarea type="text" id="valor2" cols="20" rows="5" required></textarea>
-  <button class="button" type="submit" id="decifrar">Decifrar</button><br>
-  <p id="valorDigitado2"></p>
-
-
+    <textarea type="text" id="valor2" cols="20" rows="5" required></textarea>
+    <p id="valorDigitado2"></p>
+  </form>
+  <footer class="rodape">
+    <button class="button" type="submit" id="cifrar">Cifrar</button>
+    <button class="button" type="submit" id="decifrar">Decifrar</button><br>
+  </footer>
   <script src="index.js" type="module"></script>
 </body>
 
