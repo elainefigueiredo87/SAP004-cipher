@@ -8,8 +8,27 @@ header {
     text-align: center;
     font-size: 17pt;
 }
+.principal {
+    display: inline-flex
+    
 
-textarea {
+}
+
+.rodape{
+    margin: 2em;
+    
+
+}
+p{
+    
+    border: dotted;
+    height: 18em;
+    width: 15em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.cod {
     vertical-align: top;
     height: 10em;
     width: 45em;
@@ -18,12 +37,14 @@ textarea {
 .button {
     
     padding-bottom: 25px;
-    margin-top: 1em;
+    margin: 1px 230px;
     background-color: rgb(131, 93, 129);
     border-color: purple;
     font-size: medium;
+
     
 }
 .number {
     border-color: purple
 }
+
